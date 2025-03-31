@@ -25,12 +25,28 @@ st.write(
 )
 
 # Apresentação do Dataset
-st.markdown("### Apresentação do Dataset")
+st.markdown("## Apresentação do Dataset")
+
 st.write(
     """
-    O conjunto de dados utilizado contém informações de salários entre 2020 e 2025 para profissionais de AI, ML e DS.
-    Ele inclui variáveis como nível de experiência, tipo de emprego, título do cargo, salário em USD,
-    local de trabalho, tamanho da empresa e taxa de trabalho remoto.
+    O conjunto de dados utilizado contém informações sobre salários de profissionais de **AI, Machine Learning e Data Science** 
+    entre **2020 e 2025**. Ele é atualizado semanalmente e apresenta salários convertidos para **USD**, 
+    ajustados com a taxa de câmbio média do respectivo ano.
+
+    O dataset inclui as seguintes variáveis:
+    - **Ano do pagamento** (`work_year`)
+    - **Nível de experiência** (`experience_level`): Junior (EN), Pleno (MI), Sênior (SE), Executivo (EX)
+    - **Tipo de emprego** (`employment_type`): Tempo integral (FT), Parcial (PT), Contrato (CT), Freelancer (FL)
+    - **Título do cargo** (`job_title`)
+    - **Salário bruto** (`salary`)
+    - **Moeda original do salário** (`salary_currency`)
+    - **Salário convertido para USD** (`salary_in_usd`)
+    - **País de residência do funcionário** (`employee_residence`)
+    - **Proporção de trabalho remoto** (`remote_ratio`): Presencial (0), Híbrido (50), 100% Remoto (100)
+    - **Localização da empresa** (`company_location`)
+    - **Tamanho da empresa** (`company_size`): Pequena (S), Média (M), Grande (L)
+
+    📌 **Fonte do dataset:** [Kaggle - The Global AI/ML/Data Science Salary for 2025](https://www.kaggle.com/datasets/samithsachidanandan/the-global-ai-ml-data-science-salary-for-2025)
     """
 )
 
