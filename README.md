@@ -1,4 +1,11 @@
-# 🚀 Checkpoint 2/5 - 2ESPR
+# 🚀 Checkpoint 5 - 2ESPR
+
+## 👤 Integrantes
+
+- Gabriel Mediotti Marques - RM 552632
+- Jó Sales - RM 552679
+- Miguel Garcez de Carvalho - RM 553768
+- Vinicius Souza e Silva - RM 552781
 
 ## 📌 Sobre o Projeto
 
