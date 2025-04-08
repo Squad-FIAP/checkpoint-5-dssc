@@ -53,7 +53,7 @@ st.write(
 
 st.markdown("#### Exemplo de Dados")
 try:
-    df = pd.read_csv("dataset.csv")
+    df = pd.read_csv("src/dataset.csv")
     st.dataframe(df.head())
 except:
     st.warning("⚠️ Dataset não encontrado. Certifique-se de fazer o upload do arquivo.")
@@ -65,7 +65,7 @@ st.write(
     Algumas perguntas que iremos explorar utilizando Intervalos de Confiança e Testes de Hipótese:
     
     - **Intervalos de Confiança:**  
-      - Qual é o intervalo de confiança para o salário médio dos profissionais de AI/ML/DS?  
+      - Qual é o intervalo de confiança para o salário médio dos profissionais de AI/ML/DS, para uma determinada senioridade?
       - Há uma diferença significativa no intervalo de confiança do salário médio entre diferentes níveis de experiência?  
       - O intervalo de confiança para o salário médio de profissionais remotos é maior ou menor do que para os presenciais?  
 
